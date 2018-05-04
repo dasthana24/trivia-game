@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> TRIVIA GAME </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Let's Play Trivia Game</h1>
+        </div>
+        
+        <row>
+            <div class="col-md-5"></div>
+            <div class="col-md-2 question">
+                <button type="button" class="btn start">Play Game </button>
+            </div>
+            <div class="col-md-5"></div>
+        </row>
+       
+        <div class="card">
+        <row>
+            <div class="col-md-12 font-weight-bold text-center time">
+                <h2>
+                    <div id="time-holder"></div>
+                </h2>
+            </div>
+        </row>
+        <br>
+        <br>
+        <br>
+        <br>
+        <row>
+            <div class="col-md-12 question">
+                <h2>
+                    <div id="question-holder"></div>
+                </h2>
+                <h2>
+                    <div id="answer-holder"></div>
+                </h2>
+            </div>
+        </row>
+        <br>
+        <br>
+        
+        <row>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h2>
+                    <div id="image-holder"></div>
+                </h2>
+            </div>
+            <!-- <div class="col-md-4"></div> -->
+        </row>
+        <row>
+            <div class="col-md-12">
+                <h2>
+                    <div id="choice-holder-1"></div>
+                </h2>
+            </div>
+            <!-- <div class="col-md-4"></div> -->
+            <div class="col-md-4">
+                <h2>
+                    <div id="correct-holder"></div>
+                </h2>
+            </div>
+            <div class="col-md-4"></div>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="choice-holder-2"></div>
+                    </h2>
+                </div>
+                <!-- <div class="col-md-4"></div> -->
+                <div class="col-md-4">
+                    <h2>
+                        <div id="incorrect-holder"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+            </row>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="choice-holder-3"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>
+                        <div id="unanswered-holder"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+            </row>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="choice-holder-4"></div>
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h2>
+                        <div id="restart-holder"></div>
+       
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+            </row>
+        </div>
+    </div>
+    <!-- Link to JS -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
